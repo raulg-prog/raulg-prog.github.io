@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Raul Garcia-Lopez, Computer Engineer — projects, experience, and contact info.">
+  <title>Raul Garcia-Lopez | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- ===== Left column (sticky) ===== -->
+    <header class="sidebar">
+      <div>
+        <h1 class="name"><a href="#about">Raul Garcia-Lopez</a></h1>
+        <h2 class="role">Computer Engineer</h2>
+        <p class="tagline">
+          Problem Solver. System Builder.
+        </p>
+
+        <a class="btn-download" href="Raul_GarciaLopez_Resume.pdf" download>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M4 21h16"/></svg>
+          Download Résumé
+        </a>
+
+        <nav class="side-nav" aria-label="In-page navigation">
+          <ul>
+            <li><a class="nav-link active" href="#about"><span class="nav-line"></span><span class="nav-text">About</span></a></li>
+            <li><a class="nav-link" href="#education"><span class="nav-line"></span><span class="nav-text">Education</span></a></li>
+            <li><a class="nav-link" href="#projects"><span class="nav-line"></span><span class="nav-text">Projects</span></a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <ul class="social" aria-label="Social links">
+        <li>
+          <a href="https://github.com/raulg-prog" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 16 16" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/raul-garcia-0843aa220/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:rgarcialopez.dev@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- ===== Right column (scrolls) ===== -->
+    <main class="content">
+
+      <section id="about" class="section" aria-label="About me">
+        <h2 class="section-heading">About</h2>
+        <p>
+          My path into engineering started with a slow old family PC that I
+          refused to leave alone. Tinkering with it led to gaming, gaming led
+          to writing iPhone apps in high school, and before long I was building
+          my own PC and wiring up Arduino kits. That instinct —
+          <span class="highlight">take it apart, figure it out, make it better</span> —
+          has driven everything since.
+        </p>
+        <p>
+          I recently earned my B.S. in Computer Engineering from Cal Poly
+          Pomona, and what excites me most is working across the
+          <span class="highlight">full stack of computing</span>: designing FPGA
+          logic and building circuits at the bottom, deploying fault-tolerant
+          Linux infrastructure with automated failover and real-time monitoring
+          at the top. Right now I'm looking for an entry-level
+          <span class="highlight">cloud engineering</span> role where I can
+          build reliable systems and keep learning from people who do it well.
+        </p>
+        <p>
+          When I'm not in front of a terminal, I'm usually gaming — the hobby
+          that pulled me into all of this in the first place.
+        </p>
+      </section>
+
+      <section id="education" class="section" aria-label="Education">
+        <h2 class="section-heading">Education</h2>
+        <ol class="card-list">
+
+          <li class="card">
+            <span class="card-date">Grad. Dec 2025</span>
+            <div class="card-body">
+              <h3><a href="https://www.cpp.edu" target="_blank" rel="noopener">B.S. Computer Engineering · Cal Poly Pomona <span class="arrow">↗</span></a></h3>
+              <p>
+                Hands-on program spanning networking, operating systems, and
+                embedded systems — from designing FPGA logic in Verilog and
+                SystemVerilog to building and debugging physical circuits with
+                transistors, capacitors, and op-amps. Capped by a senior design
+                project deploying fault-tolerant Linux infrastructure with
+                automated failover, real-time monitoring, and centralized
+                logging.
+              </p>
+              <ul class="tags">
+                <li>TCP/IP Internetworking</li>
+                <li>Operating Systems</li>
+                <li>Computer Architecture</li>
+                <li>Data Structures &amp; Algorithms</li>
+                <li>Advanced Digital Design (Verilog)</li>
+                <li>Circuits &amp; Electronics</li>
+              </ul>
+            </div>
+          </li>
+
+        </ol>
+        <a class="resume-link" href="Raul_GarciaLopez_Resume.pdf" download>View Full Résumé <span class="arrow">↗</span></a>
+      </section>
+
+      <section id="projects" class="section" aria-label="Projects">
+        <h2 class="section-heading">Projects</h2>
+        <ol class="card-list">
+
+          <li class="card">
+            <div class="card-thumb">
+              <img src="assets/cloud-failover-dashboard.png" alt="CloudWatch dashboard showing healthy host count dips and recovery during failover testing">
+            </div>
+            <div class="card-body">
+              <h3><a href="https://github.com/raulg-prog/cloud-failover" target="_blank" rel="noopener">Cloud Failover — Multi-AZ High Availability on AWS <span class="arrow">↗</span></a></h3>
+              <p>
+                A multi-AZ AWS environment built to survive instance loss: a
+                load balancer and Auto Scaling Group span two availability
+                zones while a chaos-monkey script terminates live instances —
+                traffic fails over to the surviving node and capacity
+                self-heals in ~2 minutes. CloudWatch dashboards track healthy
+                hosts, 5XX error windows, and recovery in real time.
+              </p>
+              <ul class="tags">
+                <li>AWS EC2</li>
+                <li>Load Balancer</li>
+                <li>Auto Scaling</li>
+                <li>CloudWatch</li>
+                <li>Chaos Testing</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card-thumb">
+              <!-- Add a screenshot from the report: <img src="assets/senior-design.png" alt="..."> -->
+              <span>IMG</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="assets/senior-design-report.pdf" target="_blank" rel="noopener">Fault-Tolerant Infrastructure — Senior Design <span class="arrow">↗</span></a></h3>
+              <p>
+                A 3-VM Linux environment simulating production cloud
+                infrastructure: automatic Virtual IP failover with Keepalived
+                (VRRP), Nginx reverse proxying to the active node, Prometheus +
+                Grafana monitoring across 10+ panels, and Alertmanager webhooks
+                that trigger automated rebuild and graceful failover — verified
+                sub-minute recovery under simulated failures. Full report
+                linked.
+              </p>
+              <ul class="tags">
+                <li>Linux</li>
+                <li>Keepalived</li>
+                <li>Nginx</li>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+                <li>ELK Stack</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card-thumb">
+              <img src="https://raw.githubusercontent.com/raulg-prog/aws-honeypot-threat-intel/main/dashboard/attack-map.png" alt="Geographic attack map from the honeypot dashboard">
+            </div>
+            <div class="card-body">
+              <h3><a href="https://github.com/raulg-prog/aws-honeypot-threat-intel" target="_blank" rel="noopener">AWS SSH Honeypot — Threat Intel Pipeline <span class="arrow">↗</span></a></h3>
+              <p>
+                A hardened, internet-facing SSH honeypot on an isolated AWS EC2
+                instance that captured 205,620 real attack events in 7 days.
+                A Logstash → OpenSearch pipeline with GeoIP enrichment powers a
+                live geographic attack map; ~94% of traffic was attributed to
+                two automated botnet campaigns.
+              </p>
+              <ul class="tags">
+                <li>AWS EC2</li>
+                <li>Cowrie</li>
+                <li>Logstash</li>
+                <li>OpenSearch</li>
+                <li>GeoIP</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card-thumb">
+              <video src="assets/ascon-demo.mp4" controls muted preload="metadata" aria-label="ASCON demo running on the Nexys A7 FPGA"></video>
+            </div>
+            <div class="card-body">
+              <h3><a href="assets/ascon-report.docx" download>ASCON Lightweight Cryptography Benchmarking <span class="arrow">↗</span></a></h3>
+              <p>
+                Implemented the NIST-standardized ASCON encryption algorithm on
+                three architectures — ESP32, Arduino MEGA, and a Microblaze
+                soft-core on a Nexys A7 FPGA — then benchmarked execution time,
+                power, and cost: the ESP32 hit a 103× speedup over the MEGA at
+                just 1.14× the power draw. Course repo is private; the demo
+                video and full report are right here.
+              </p>
+              <ul class="tags">
+                <li>C</li>
+                <li>ESP32</li>
+                <li>FPGA / Microblaze</li>
+                <li>Power Analysis</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card-thumb"><span>IMG</span></div>
+            <div class="card-body">
+              <h3><a href="https://github.com/raulg-prog/cost-monitoring" target="_blank" rel="noopener">AWS Cloud &amp; Cost Monitoring Projects <span class="arrow">↗</span></a></h3>
+              <p>
+                A growing collection of hands-on AWS projects covering
+                infrastructure, cost monitoring, alerting, and automation —
+                built to sharpen cloud engineering and DevOps skills, with
+                infrastructure-as-code in Terraform.
+              </p>
+              <ul class="tags">
+                <li>AWS</li>
+                <li>Terraform</li>
+                <li>DevOps</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card-thumb">
+              <img src="assets/omnichat.png" alt="OmniChat landing page — live combined chat feed from four platforms">
+            </div>
+            <div class="card-body">
+              <h3><a href="https://github.com/raulg-prog/OmniChat" target="_blank" rel="noopener">OmniChat <span class="arrow">↗</span></a></h3>
+              <p>
+                A real-time chat aggregator that unifies live chat from Twitch,
+                Kick, X, and YouTube into a single color-coded stream — with a
+                public watch page and live audience analytics (mood, messages
+                per minute, platform mix, top chatters).
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>Real-time</li>
+                <li>Web App</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card-thumb"><span>IMG</span></div>
+            <div class="card-body">
+              <h3><a href="https://github.com/raulg-prog/Bust-Game" target="_blank" rel="noopener">Bust <span class="arrow">↗</span></a></h3>
+              <p>
+                A GBA-era Pokémon-inspired top-down adventure RPG with
+                gambling-based progression: travel five themed towns, earn Fame
+                in mini-games, and collect Badges to unlock new areas. Built in
+                Godot 4.6, targeting Steam.
+              </p>
+              <ul class="tags">
+                <li>Godot</li>
+                <li>GDScript</li>
+                <li>Game Dev</li>
+              </ul>
+            </div>
+          </li>
+
+        </ol>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
